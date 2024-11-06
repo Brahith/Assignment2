@@ -6,6 +6,16 @@
   <title><%= title %></title>
     <!--CSS Files-->
   <link rel='stylesheet' href='/Content/app.css'/>
+  
+  <link rel="stylesheet" type="text/css" href="fluid.css" media="only screen and (max-width : 1500px)">
+  <!-- Links fluid.css to apply responsive styles when the screen width is 1500px or smaller -->
+
+  <link rel="stylesheet" type="text/css" href="tablet2.css" media="only screen and (min-width : 801px) and (max-width:1500px)">
+  <!-- Links tablet2.css to apply specific styles for tablets or similar devices between 801px and 1500px in width -->
+
+  <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (min-width : 800px)">
+  <!-- Links phone.css to apply styles for devices that are at least 800px wide (usually small phones or tablets) -->
+  
   <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css"/>
 </head>

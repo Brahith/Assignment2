@@ -1,0 +1,39 @@
+<% if (title == "About Me") {%> 
+
+<div class="container bg-white p-4">
+    <h1> <%= title %> Page</h1>
+    
+    <div class="row">
+
+        <div class="script">
+            <!-- Section for the About Me content -->
+            <p>Brahith Pavanantharajah</p>
+            <!-- Heading displaying the name -->
+                <!-- A paragraph containing a brief introduction about Brahith -->
+                <p>My name is Brahith Pavanantharajah, and I am currently in my 2nd year at Ontario Tech University, pursuing a degree in Networking and IT Security. 
+                    I have a passion for technology, especially in the field of cybersecurity, which drives my studies and career aspirations.
+                    Outside of academics, I enjoy a variety of hobbies.
+                    <br><br>
+                    I'm an avid gamer, with Fortnite and Call of Duty being two of my favorite games to play with friends. Gaming is not only a fun escape but also a way 
+                    to stay connected and competitive. In addition to gaming, I enjoy staying active by playing badminton, which allows me to balance physical activity with mental relaxation.
+                    <br><br>
+                    When I'm not gaming or playing sports, I spend time listening to rap music on Spotify, which helps me unwind and fuels my creativity.
+                </p>
+                <div class="col-md-6 text-center">
+                    <img src="/Assests/images/aboutme.png" alt="welcome image" class="img-fluid" style="height:500px">
+                    <!-- Displays the "aboutme.png" image representing the About Me section -->
+                </div>
+            </div>
+        </div>
+<br></br>
+
+    <div class="col-md-6 text-center">
+        <video width="1000" height="300" controls poster="on_record.png" preload="auto" autoplay loop muted id="myvid">
+            <!-- Video of Brahith playing badminton, with autoplay, looping, and muted properties -->
+
+            <source src="/Assests/images/BadmintonVid.mp4" type="video/mp4">
+            <!-- Video file source in MP4 format -->
+        </video>
+    </div>
+</div>
+<%} %>
