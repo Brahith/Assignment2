@@ -1,85 +1,85 @@
 <% if (title == "Contact Me") {%>
-        <!--Left Section for Contact Info-->
-        <div id="contact">
-            <!-- Main container for the contact section -->
+    <!-- Checks if the page title is "Contact Me" to display this section -->
 
-            <div class="row">
-                <!-- A row to hold the left and right sections side-by-side -->
+    <div id="contact">
+        <!-- Main container for the contact section -->
 
-                <div class="contact-left">
-                    <!-- Left section for displaying contact details -->
+        <div class="row">
+            <!-- Row to hold the left and right sections side-by-side -->
 
-                    <h1 class="sub-title">Contact Me</h1>
-                    <!-- Title for the contact section -->
+            <div class="contact-left">
+                <!-- Left section for displaying contact details -->
 
-                    <p><i class="fa-solid fa-envelope"></i> Email: brahith.pavanantharajah@ontariotechu.net</p>
-                    <!-- Displays the email address with an envelope icon -->
+                <h1 class="sub-title">Contact Me</h1>
+                <!-- Title for the contact section -->
 
-                    <p><i class="fa-solid fa-square-phone"></i> Number: +1 (647) - 857 - 3185</p>
-                    <!-- Displays the phone number with a phone icon -->
+                <p><i class="fa-solid fa-envelope"></i> Email: brahith.pavanantharajah@ontariotechu.net</p>
+                <!-- Displays the email address with an envelope icon -->
 
-                    <div class="social-icons">
-                        <!-- Container for social media icons -->
+                <p><i class="fa-solid fa-square-phone"></i> Number: +1 (647) - 857 - 3185</p>
+                <!-- Displays the phone number with a phone icon -->
 
-                        <a href="https://www.instagram.com/brahith.p/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
-                        <!-- Instagram icon with a link -->
+                <div class="social-icons">
+                    <!-- Container for social media icons -->
 
-                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-                        <!-- WhatsApp icon with a link -->
+                    <a href="https://www.instagram.com/brahith.p/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                    <!-- Instagram icon with a link to Brahith's profile -->
 
-                        <a href=""><i class="fa-brands fa-snapchat"></i></a>
-                        <!-- Snapchat icon with a link -->
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <!-- WhatsApp icon with an empty link -->
 
-                        <a href="https://www.linkedin.com/in/brahith-pavanantharajah-66499928b/"><i class="fa-brands fa-linkedin"></i></a>
-                        <!-- LinkedIn icon with a link -->
-                    </div>
-                </div>
+                    <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                    <!-- Snapchat icon with an empty link -->
 
-                <!--Right Section for Form-->
-                <div class="contact-right">
-                    <!-- Right section for the contact form -->
-
-                    <form action="mailto:brahith.pavanantharajah@ontariotechu.net" 
-                    method="post" enctype="text/plain" name="form">
-                        <!-- Contact form that sends data via email when submitted -->
-
-                        <p>
-                            <label for="name">Name:</label>
-                            <!-- Label for the name field -->
-                            
-                            <input type="text" name="name" size="32">
-                            <!-- Input field for the user's name -->
-                        </p>
-
-                        <p>
-                            <label for="email">Email:</label>
-                            <!-- Label for the email field -->
-
-                            <input type="email" name="email" size="48">
-                            <!-- Input field for the user's email address -->
-                        </p>
-
-                        <p>
-                            <label for="phone">Phone Number:</label>
-                            <!-- Label for the phone number field -->
-
-                            <input type="phone" name="phone" size="48">
-                            <!-- Input field for the user's phone number -->
-                        </p>
-
-                        <p>
-                            <label for="comments">Comments: </label>
-                            <!-- Label for the comments field -->
-
-                            <br><br>
-                            <textarea name="comments" cols="40" rows="8"></textarea>
-                            <!-- Text area for users to write comments or messages -->
-                        </p>
-                        
-                        <input type="submit" value="Submit">
-                        <!-- Submit button for the form -->
-                    </form>
+                    <a href="https://www.linkedin.com/in/brahith-pavanantharajah-66499928b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <!-- LinkedIn icon with a link to Brahith's profile -->
                 </div>
             </div>
-        </div> 
-<%} %>
+
+            <div class="contact-right">
+                <!-- Right section for the contact form -->
+
+                <form action="mailto:brahith.pavanantharajah@ontariotechu.net" 
+                method="post" enctype="text/plain" name="form">
+                    <!-- Contact form configured to send data via email on submission -->
+
+                    <p>
+                        <label for="name">Name:</label>
+                        <!-- Label for the name field -->
+
+                        <input type="text" name="name" size="32">
+                        <!-- Input field for the user's name -->
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <!-- Label for the email field -->
+
+                        <input type="email" name="email" size="48">
+                        <!-- Input field for the user's email address -->
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <!-- Label for the phone number field -->
+
+                        <input type="phone" name="phone" size="48">
+                        <!-- Input field for the user's phone number -->
+                    </p>
+
+                    <p>
+                        <label for="comments">Comments: </label>
+                        <!-- Label for the comments field -->
+
+                        <br><br>
+                        <textarea name="comments" cols="40" rows="8"></textarea>
+                        <!-- Text area for users to write comments or messages -->
+                    </p>
+
+                    <input type="submit" value="Submit">
+                    <!-- Submit button for sending the form data -->
+                </form>
+            </div>
+        </div>
+    </div> 
+<% } %>

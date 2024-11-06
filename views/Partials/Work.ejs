@@ -1,52 +1,58 @@
 <% if (title == "Projects") {%> 
 <div class="container bg-white p-4">
+    <!-- Main container with white background and padding -->
+
     <h1> <%= title %> Page</h1>
-    
-    <div class="row">            
+    <!-- Page title dynamically populated using the title variable -->
+
+    <div class="row">
+        <!-- Row for layout structure -->
+
         <div id="right-work">
-        <!-- Content section for displaying recent projects -->
+            <!-- Content section for displaying recent projects -->
 
-        <h2>My Recent Projects</h2>
-        <!-- Heading for the section displaying recent projects -->
+            <h2>My Recent Projects</h2>
+            <!-- Section heading for recent projects -->
 
-        <p>The work I've done</p>
-        <!-- A brief description or introduction to the projects -->
-        
-        <div class="box">
-            <!-- First project container -->
+            <p>The work I've done</p>
+            <!-- Brief introductory text for the projects -->
 
-            <p>
-                <!-- Container for the first project link and image -->
+            <div class="box">
+                <!-- Container for the first project -->
 
-                <a href="project1.html">
-                    <!-- Link to the detailed page of Project 1 -->
+                <p>
+                    <!-- Container for project 1 link and image -->
 
-                    <img src="Project1/Slide1.png" class="projectPoster">
-                    <!-- Image (poster) representing the first project -->
+                    <a href="project1.html">
+                        <!-- Link to the detailed page for Project 1 -->
 
-                    State/Government Cyber Attack
-                    <!-- Project 1 title -->
-                </a>
-            </p>
-        </div>
+                        <img src="Project1/Slide1.png" class="projectPoster">
+                        <!-- Project 1 poster image with "projectPoster" styling -->
 
-        <div class="box">
-            <!-- Second project container -->
+                        State/Government Cyber Attack
+                        <!-- Title of the first project -->
+                    </a>
+                </p>
+            </div>
 
-            <p>
-                <!-- Container for the second project link and image -->
+            <div class="box">
+                <!-- Container for the second project -->
 
-                <a href="project2.html">
-                    <!-- Link to the detailed page of Project 2 -->
+                <p>
+                    <!-- Container for project 2 link and image -->
 
-                    <img src="Project2/ProjectSlide1.png" class="projectPoster">
-                    <!-- Image (poster) representing the second project -->
+                    <a href="project2.html">
+                        <!-- Link to the detailed page for Project 2 -->
 
-                    Cell Processor
-                    <!-- Project 2 title -->
-                </a>
-            </p>
+                        <img src="Project2/ProjectSlide1.png" class="projectPoster">
+                        <!-- Project 2 poster image with "projectPoster" styling -->
+
+                        Cell Processor
+                        <!-- Title of the second project -->
+                    </a>
+                </p>
+            </div>
         </div>
     </div>
 </div>
-<%} %>
+<% } %>
